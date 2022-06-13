@@ -1,0 +1,90 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    font-family: cursive;
+    color: wheat;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: aquamarine;
+    text-shadow: 3px 0 20px #f60471;
+}
+
+footer {
+    font-family: cursive;
+    font-size: 3rem;
+    color: greenyellow;
+}
+
+p {
+    text-shadow: 0px 5px 30px greenyellow;
+}
+
+.drum {
+    margin: 10px;
+    color: #2e3eef;
+    font-size: 80px;
+    border: 10px solid rgb(42, 36, 49);
+    border-radius: 20px;
+    padding: 1px 6px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-shadow: 5px 5px 10px yellowgreen;
+}
+
+.drum:hover {
+    color: white;
+    text-shadow: 0px 0px 35px yellow;
+}
+
+.set {
+    margin-bottom: 80px;
+}
+
+
+/*
+Below class will be active when a button is pressed.....we will add this class dynamically to the button pressed.
+*/
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.color {
+    color: #f60471;
+}
+
+.a {
+    background-image: url(images/tom1.png);
+}
+
+.s {
+    background-image: url(images/tom2.png);
+}
+
+.d {
+    background-image: url(images/tom3.png);
+}
+
+.f {
+    background-image: url(images/tom4.png);
+    ;
+}
+
+.j {
+    background-image: url(images/crash.png);
+}
+
+.k {
+    background-image: url(images/kick.png);
+}
+
+.l {
+    background-image: url(images/snare.png  );
+}
